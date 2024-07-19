@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
+import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorMapping, Editor, DemandForecasting, Inventory, InventoryManagement, CustomerInsights, Sales } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -72,12 +72,16 @@ const App = () => {
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/employees" element={<Employees />} />
                 <Route path="/customers" element={<Customers />} />
+                <Route path="/inventory" element={<Inventory />} />
+                <Route path="/sales" element={<Sales />} />
 
                 {/* apps  */}
                 <Route path="/kanban" element={<Kanban />} />
                 <Route path="/editor" element={<Editor />} />
                 <Route path="/calendar" element={<Calendar />} />
-                <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path="/demandforecasting" element={<DemandForecasting />} />
+                <Route path="/inventorymanagement" element={<InventoryManagement />} />
+                <Route path="/customerinsights" element={<CustomerInsights />} />
 
                 {/* charts  */}
                 <Route path="/line" element={<Line />} />

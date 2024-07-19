@@ -2,7 +2,6 @@ import React from 'react';
 import { AiOutlineCalendar, AiOutlineShoppingCart, AiOutlineAreaChart, AiOutlineBarChart, AiOutlineStock } from 'react-icons/ai';
 import { FiShoppingBag, FiEdit, FiPieChart, FiBarChart, FiCreditCard, FiStar, FiShoppingCart } from 'react-icons/fi';
 import { BsKanban, BsBarChart, BsBoxSeam, BsCurrencyDollar, BsShield, BsChatLeft } from 'react-icons/bs';
-import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine, RiStockLine } from 'react-icons/ri';
 import { MdOutlineSupervisorAccount } from 'react-icons/md';
@@ -10,6 +9,7 @@ import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
+import { FaRegLightbulb, FaClipboardList } from 'react-icons/fa';
 import avatar from './avatar.jpg';
 import avatar2 from './avatar2.jpg';
 import avatar3 from './avatar3.png';
@@ -21,7 +21,6 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -474,7 +473,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'ecommerce',
+        name: 'Ecommerce',
         icon: <FiShoppingBag />,
       },
     ],
@@ -495,6 +494,14 @@ export const links = [
         name: 'customers',
         icon: <RiContactsLine />,
       },
+      {
+        name: 'Inventory',
+        icon: <FaClipboardList />,
+      },
+      {
+        name: 'sales',
+        icon: <FaClipboardList />,
+      },
     ],
   },
   {
@@ -509,12 +516,16 @@ export const links = [
         icon: <BsKanban />,
       },
       {
-        name: 'editor',
+        name: 'DemandForecasting',
         icon: <FiEdit />,
       },
       {
-        name: 'color-picker',
-        icon: <BiColorFill />,
+        name: 'CustomerInsights',
+        icon: <FaRegLightbulb />,
+      },
+      {
+        name: 'InventoryManagement',
+        icon: <FaClipboardList />,
       },
     ],
   },
@@ -1280,7 +1291,7 @@ export const customersData = [
     Status: 'Active',
     StatusBg: '#8BE78B',
     Weeks: '40',
-    Budget: '$2.4k',
+    Budget: '2.4k',
     Location: 'India',
   },
   {
@@ -1295,7 +1306,7 @@ export const customersData = [
 
     StatusBg: '#8BE78B',
     Weeks: '11',
-    Budget: '$3.9k',
+    Budget: '3.9k',
     Location: 'India',
   },
   {
@@ -1323,7 +1334,7 @@ export const customersData = [
       avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
-    Budget: '$16.5k',
+    Budget: '16.5k',
     Location: 'USA',
   },
   {
@@ -1337,7 +1348,7 @@ export const customersData = [
       avatar2,
     StatusBg: 'red',
     Weeks: '34',
-    Budget: '$16.5k',
+    Budget: '16.5k',
     Location: 'USA',
   },
   {
@@ -1350,7 +1361,7 @@ export const customersData = [
     Status: 'Active',
     StatusBg: '#8BE78B',
     Weeks: '40',
-    Budget: '$2.4k',
+    Budget: '2.4k',
     Location: 'India',
   },
   {

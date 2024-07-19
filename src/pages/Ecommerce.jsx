@@ -25,7 +25,7 @@ const Ecommerce = () => {
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
-              <p className="text-2xl">$63,448.78</p>
+              <p className="text-2xl">RS 10,63,448.78</p>
             </div>
             <button
               type="button"
@@ -89,7 +89,7 @@ const Ecommerce = () => {
             <div className=" border-r-1 border-color m-4 pr-10">
               <div>
                 <p>
-                  <span className="text-3xl font-semibold">$93,438</span>
+                  <span className="text-3xl font-semibold">RS 12,93,438</span>
                   <span className="p-1.5 hover:drop-shadow-xl cursor-pointer rounded-full text-white bg-green-400 ml-3 text-xs">
                     23%
                   </span>
@@ -97,7 +97,7 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Budget</p>
               </div>
               <div className="mt-8">
-                <p className="text-3xl font-semibold">$48,487</p>
+                <p className="text-3xl font-semibold">RS 11,48,487</p>
 
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
@@ -128,7 +128,7 @@ const Ecommerce = () => {
               <p className="font-semibold text-white text-2xl">Earnings</p>
 
               <div>
-                <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
+                <p className="text-2xl text-white font-semibold mt-8">RS 10,63,448</p>
                 <p className="text-gray-200">Monthly revenue</p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Ecommerce = () => {
 
           <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
             <div>
-              <p className="text-2xl font-semibold ">$43,246</p>
+              <p className="text-2xl font-semibold ">RS 9,43,246</p>
               <p className="text-gray-400">Yearly sales</p>
             </div>
 
@@ -308,8 +308,8 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">Retail Samadhan is there for you !!!</p>
+              <p className="text-gray-400 ">By Suransh Baral</p>
               <p className="mt-8 text-sm text-gray-400">
                 This will be the small description for the news you have shown
                 here. There could be some great info.
